@@ -1,10 +1,10 @@
-body{
+body {
     background-color: rgb(37, 37, 133);
     color: aliceblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.center{
+.center {
     margin: 0;
     position: absolute;
     top: 40%;
@@ -13,13 +13,29 @@ body{
     transform: translate(-50%, -50%);
 }
 
-
-.button:hover {
-  background-color: #01004e;
-  color: aliceblue;
+.button {
+    position: absolute;
+    background-color: aliceblue;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #01004e;
+    text-align: center;
+    text-decoration: none;
+    left: 30%;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    border-radius: 4px;
 }
 
-.tabela{
+.button:hover {
+    background-color: #01004e;
+    color: aliceblue;
+}
+
+.tabela {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -28,7 +44,7 @@ body{
     transform: translate(-50%, -50%);
 }
 
-.resposta{
+.resposta {
     background-color: rgb(121, 121, 121);
     border: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -39,11 +55,12 @@ body{
     font-size: 30px;
     margin: 4px 2px;
     cursor: pointer;
-    transition-duration: 0.5s;
     border-radius: 4px;
 }
 
-table, th, td{
+table,
+th,
+td {
     font-size: 30px;
     color: rgb(0, 0, 0);
     border-style: solid;
@@ -53,7 +70,7 @@ table, th, td{
     border-collapse: collapse;
 }
 
-.logo{
+.logo {
     position: absolute;
     top: 120px;
     left: 125px;

@@ -1,10 +1,10 @@
-body{
+body {
     background-color: rgb(37, 37, 133);
     color: aliceblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.tabela{
+.tabela {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -13,11 +13,9 @@ body{
     transform: translate(-50%, -50%);
 }
 
-tr:nth-child(even){
-    background-color: gray;
-}
-
-table, th, td{
+table,
+th,
+td {
     font-size: 30px;
     color: rgb(0, 0, 0);
     border-style: solid;
@@ -27,7 +25,25 @@ table, th, td{
     border-collapse: collapse;
 }
 
-.button{
+.sair{
+    position: absolute;
+    right: 2%;
+    background-color: aliceblue;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(37, 37, 133);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    border-radius: 4px;
+}
+
+.button {
     background-color: rgb(121, 121, 121);
     border: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -42,7 +58,7 @@ table, th, td{
     border-radius: 4px;
 }
 
-.search{
+.search {
     position: absolute;
     top: 10%;
     left: 40%;

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="../css/registro.css">
     <title>REGISTRO</title>
 </head>
+
 <body>
     <aside>
         <figure>
@@ -23,28 +25,36 @@
                     <th>TIPO DO SEU EQUIPAMENTO:</th>
                 </tr>
                 <tr>
-                    <th><input class="resposta" type="text"></th>
+                    <th><select class="resposta">
+                            <option value="" disabled selected>Selecione aqui...</option>
+                            <option value="">Laptop</option>
+                            <option value="">PC</option>
+                            <option value="">All-In-One</option>
+                            <option value="">Celular</option>
+                            <option value="">Tablet</option>
+                        </select></th>
                 </tr>
                 <tr>
                     <th>MARCA E MODELO DO EQUIPAMENTO:</th>
                 </tr>
                 <tr>
-                    <th></th>
+                    <th><input type="text" class="resposta"></th>
                 </tr>
                 <tr>
                     <th>NÚMERO DE SÉRIE DO EQUIPAMENTO:</th>
                 </tr>
                 <tr>
-                    <th></th>
+                    <th><input type="text" class="resposta"></th>
                 </tr>
                 <tr>
                     <th>PROBLEMA DO EQUIPAMENTO:</th>
                 <tr>
-                    <th></th>
-                </tr>
+                    <th><textarea name="" class="resposta"></textarea></th>
                 </tr>
             </table>
+            <a href="usuario.html" class="button">ENVIAR REGISTRO</a>
         </div>
     </main>
 </body>
+
 </html>
